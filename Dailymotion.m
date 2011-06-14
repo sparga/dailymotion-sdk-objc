@@ -466,6 +466,10 @@ NSString * const DailymotionApiErrorDomain = @"DailymotionApiErrorDomain";
                     [delegate dailymotion:self didReturnResult:[result objectForKey:@"result"] userInfo:userInfo];
                 }
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 087e74aad82f8a6d69ec47d76c2bdfc8d3f0c188
             [callQueue removeObjectForKey:callId];
         }
 
